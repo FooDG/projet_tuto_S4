@@ -111,7 +111,7 @@
 
         <div class="form-group">
           <div class="col-lg-6 col-lg-offset-3">
-            <button type="submit" class=" col-lg-6 btn btn-success" action="#">Valider</button>
+            <button type="submit" class=" col-lg-6 btn btn-success">Valider</button>
             <button type="reset" class="col-lg-6 btn btn-danger">Annuler</button>
           </div>
         </div>

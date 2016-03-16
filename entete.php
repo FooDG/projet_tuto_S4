@@ -14,7 +14,7 @@
 				  <div class='container-fluid'>
 					<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
 					  <ul class='nav navbar-nav col-lg-12'>
-						<li><a href='#'>Accueil</a></li>
+						<li><a href='scriptlisteutilisateur.php'>Accueil</a></li>
 						<li><a href='#'>Mes offres</a></li>
 						<li><a href='#'>FAQ</a></li>
 					<?php
