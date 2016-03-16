@@ -16,7 +16,7 @@
   <div class="panel panel-default col-lg-8 col-lg-offset-2" style="background-color:#d9edf7">
     <div class="col-lg-10 col-lg-offset-1">
       <h1> Inscription d'un nouvel utilisateur </h1>
-      <form class="form-horizontal">
+      <form class="form-horizontal" method="POST" action="scriptinscription.php">
 
       <div class="row">
         <div class="col-lg-12">
@@ -71,7 +71,7 @@
 
         <div class="form-group">
           <div class="col-lg-12">
-            <input class="form-control" id="U_Adresse_2" required name="U_Adresse_2" placeholder="Adresse 2" type="text">
+            <input class="form-control" id="U_Adresse_2"  name="U_Adresse_2" placeholder="Adresse 2" type="text">
           </div>
         </div>
 
