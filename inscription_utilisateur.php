@@ -6,9 +6,18 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <?php
+	$nom='';
   	include ('entete.php');
+  	require 'php/connexionbdd.php';
   	if(!isset($_SESSION['U_Mail'])){
   		header('Location:connexion.php');
+  	}
+  	if(isset($_GET['id'])){
+  		$sql = "SELECT * FROM utilisateur WHERE U_ID='{$_GET['id']}'";
+  		$res = $bdd->query($sql);
+  		$donnees = $res->fetch();
+  		var_dump($donnees);
+  		$nom=$donnees['U_Nom'];
   	}
   ?>
 <body>	
@@ -22,7 +31,7 @@
         <div class="col-lg-12">
           <div class="form-group">
             <div class="col-lg-6">
-              <input class="form-control" id="U_Nom" required name="U_Nom" placeholder="Nom" type="text">
+              <input class="form-control" id="U_Nom" required name="U_Nom" placeholder="Nom" type="text" value="<?= $nom ?>">
             </div>
 
             <div class="col-lg-6">
