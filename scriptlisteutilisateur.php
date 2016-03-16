@@ -1,3 +1,11 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Titre de la page</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
 <?php
 	require 'php/connexionbdd.php';
 	include('entete.php');
@@ -34,3 +42,7 @@
 	}
 	echo "</table>";
 ?>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>	
+</html>
