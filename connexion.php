@@ -55,7 +55,7 @@
 
 					<div class="form-group">
 						<div class="col-md-offset-3">
-							<button type="submit" class="btn btn-primary col-md-4" style="margin-right:10px" name="SEND">Submit</button>	
+							<button type="submit" class="btn btn-primary col-md-4" style="margin-right:10px" name="SEND">Connexion</button>	
 							<a href="#" class="btn btn-danger col-lg-4">Mot de passe oublie</a>					
 						</div>
 					</div>
