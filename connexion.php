@@ -1,6 +1,3 @@
-<?php
-	//test
-?>
 <!doctype html>
 <html lang="fr">
 <head>
