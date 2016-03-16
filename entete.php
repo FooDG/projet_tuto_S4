@@ -8,7 +8,7 @@
 	}
 ?>
 		
-		<div class='col-lg-12'>	
+		<div class='col-lg-11'>	
 			<div>
 				<nav class='navbar navbar-default col-lg-12'>
 				  <div class='container-fluid'>
