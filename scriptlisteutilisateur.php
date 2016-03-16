@@ -1,6 +1,9 @@
 <?php
 	require 'php/connexionbdd.php';
-	
+	include('entete.php');
+	if(!isset($_SESSION['U_Mail'])){
+  		header('Location:connexion.php');
+  	}
 	if(isset($_GET['id'])){
 		$sql = "DELETE FROM utilisateur WHERE U_ID = '{$_GET['id']}'";
 		$bdd->query($sql);
